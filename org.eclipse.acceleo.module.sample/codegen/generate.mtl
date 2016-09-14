@@ -18,4 +18,9 @@
 [/template]
 [template public generateElement(c:Class)]
 <li>[c.name/]</li>
+<ul>[c.attribute.generateAtributo()/]</ul>
+[/template]
+
+[template public generateAtributo(a: Property)]
+<li>[a.name/]</li>
 [/template]
