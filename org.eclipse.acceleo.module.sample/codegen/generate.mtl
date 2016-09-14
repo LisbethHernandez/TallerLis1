@@ -16,6 +16,6 @@
 [/file]
 
 [/template]
-[template public generateElement(aClass : Class)]
+[template public generateElement(c:Class)]
 <li>[c.name/]</li>
 [/template]
