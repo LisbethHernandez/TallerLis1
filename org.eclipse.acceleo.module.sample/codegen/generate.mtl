@@ -19,8 +19,13 @@
 [template public generateElement(c:Class)]
 <li>[c.name/]</li>
 <ul>[c.attribute.generateAtributo()/]</ul>
+<ul>[c.eAnnotations()/]</ul>
 [/template]
 
 [template public generateAtributo(a: Property)]
 <li>[a.name/]</li>
+[/template]
+
+[template public generateNotas(e : EAnotations)]
+<li>[e.name/]</li>
 [/template]
